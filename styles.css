@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	background-image: url(images/pic_1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg-purple {
+	background-color: #C271FF;
+}
+
+.purple {
+	color: #C271FF;
+}
+
+.btn-purple {
+	background-color: #C271FF;
+}
+
+.left-margin {
+	left: -17px;
+}
+
+.phrase-schooled {
+	font-size: 80px;
+}
+
+.play-arrow {
+	top: -60px;
+	width: 40px;
+	height: 40px;
+}
+
+.logo-container {
+	float: left;
+}
+
+.logo-container img {
+	height: 2rem;
+}
+
+.logo-container img:first-child {
+    margin-right: 1rem;
+}
+
+.membership-section {
+	background-color: #071629;
+	margin-top: 20px;
+	padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+	.play-arrow {
+		top: -100px;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	.play-arrow {
+		top: -130px;
+	}
+
+	.logo-container {
+        float: none;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 180px;
+    }
+
+    .logo-container img:first-child {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        max-width: 42px;
+	}
+}
+
+.stars-size {
+	height: 1rem;
+	width: 1rem;
+}
+
+.pricing-header {
+	background-image: url(images/pic_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.phrase-big {
+	font-size: 47px;
+}
+
+.price {
+	font-size: 28px;
+}
+
+.border-bot {
+	border-bottom: solid 1px;
+	border-color: #979797;
+}
+
+.courses-header {
+	background-image: url(images/pic_3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.search-filters {
+	opacity: 75%;
+	background-color: #C271FF;
+}
+.dropdown button.search-element:first-child {
+	background-color: #979797;
+	opacity: 80%;
+  }
